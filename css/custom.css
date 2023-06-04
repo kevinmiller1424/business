@@ -1,0 +1,181 @@
+.jumbotron {
+	margin-top: 20px;
+	text-align: left;
+  color:white;
+  }
+  .hover-img {
+	opacity: 0.7;
+	transition: opacity 0.3s;
+  }
+  .hover-img:hover {
+	opacity: 1;
+  }
+  .contact-details {
+	margin-top: 20px;
+	text-align: center;
+  }
+  .footer {
+	background-color: #f8f9fa;
+	padding: 20px;
+	text-align: center;
+  }
+  .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+	size: 40px;
+
+  }
+  h1 {
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+  
+
+  .feature {
+    background: url('../images/light_bulb.jpg');
+    background-position: top right;
+    background-size: cover;
+    background-color: #dd845a;
+    text-shadow: 1px 1px 8px black;
+    margin-top: 0px;
+    }
+    .feature .btn {
+      text-shadow: none;
+      }
+      
+    .promo, .footer-map {
+      border-width: 1px;
+      border-color: black;
+      border-top-style: solid;
+      border-bottom-style: solid;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      }
+    
+    .promo,
+    .promo h3,
+    .promo a:link,
+    .promo a:visited,
+    .promo a:hover,
+    .promo a:active {
+        color: white;
+      text-shadow: 1px 1px 8px black;
+        text-decoration: none;
+    }
+    
+    .promo-item {
+      color:white;
+      text-shadow: 1px 1px 8px black;
+        height: 200px;
+        line-height: 180px;
+        text-align: center;
+    }
+    
+    .promo-item:hover {
+        background-size: 110%; 
+        border: 5px solid black;
+        line-height: 170px;
+    }
+    
+    .promo-item h3 {
+        font-size: 40px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .item-1 {
+      background: url('../images/mung_beans.jpg');
+      }
+      
+    .item-2 {
+      background: url('../images/coffee_beans_1.jpg');
+      }
+      
+    .item-3 {
+      background: url('../images/grapes.jpg');
+      }
+        
+    .item-1,
+    .item-2,
+    .item-3 {
+      background-size: cover;
+      background-position: 50% 50%;
+      }
+  
+  .btn {
+    text-shadow: none;
+    background-color: orange;
+    color: white;
+    }
+    
+  
+  .btn:hover{
+    background-color: rgb(248, 141, 0);
+    color: white;
+  }
+  #abc {
+    color: #dd845a;
+  }
+  body {
+    color: #959595;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+  }
+  .btn-primary:focus,
+  .btn-primary.focus {
+    color: #fff;
+    background-color: darkorange;
+    border-color: darkorange;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: darkorange;
+    border-color: darkorange;
+  }
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: darkorange;
+    border-color: darkorange;
+  }
+  h1 {
+    color:#dd845a;
+  }
+  footer .small-print {
+    background-color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+    .footer-map {
+      height: 300px;
+      width: 100%;
+      background: url('../images/map.jpg');
+      background-size: cover;
+      border-color: #ccc;
+      }
+    .footer-info {
+        padding: 20px 0;
+        background: #f7f7f7;
+    }
+    a {
+      color: orange;
+      text-decoration: none;
+    }
+    a:hover,
+    a:focus {
+      color: darkorange;
+      text-decoration: underline;
+    }
